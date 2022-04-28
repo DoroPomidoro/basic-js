@@ -23,7 +23,6 @@ const { NotImplementedError } = require('../extensions/index.js');
       }
     }
   };
-  console.log(counter);
   return counter;
 };
 
