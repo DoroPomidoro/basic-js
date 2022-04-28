@@ -22,9 +22,10 @@ const { NotImplementedError } = require('../extensions/index.js');
         counter++
       }
     }
-  }
+  };
+  console.log(counter);
   return counter;
-}
+};
 
 module.exports = {
   countCats
